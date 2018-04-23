@@ -20,11 +20,13 @@ Curator.go users are assumed to know ZooKeeper. A good place to start is [ZooKee
 
 ## Using Curator
 
-The Curator.go are available from [github.com](https://github.com/flier/curator.go). You can easily include Curator.go into your code.
+The Curator.go are available from [github.com](https://github.com/ccpwcn/curator.go). You can easily include Curator.go into your code.
+
+but the origin project has some errors, I forked to here.
 
 ``` 
 import (
-	"github.com/flier/curator.go"
+	"github.com/ccpwcn/curator.go"
 )
 ```
 

@@ -13,12 +13,12 @@ Using Curator
 
 The Curator.go are available from github.com.
 
-	$ go get github.com/flier/curator.go
+	$ go get github.com/ccpwcn/curator.go
 
 You can easily include Curator.go into your code.
 
 	import (
-	    "github.com/flier/curator.go"
+	    "github.com/ccpwcn/curator.go"
 	)
 
 
