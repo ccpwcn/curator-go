@@ -1,7 +1,7 @@
 package framework
 
 import (
-	"github.com/ccpwcn/curator.go"
+	"github.com/ccpwcn/curator-go"
 	"github.com/samuel/go-zookeeper/zk"
 )
 
