@@ -16,7 +16,7 @@ Curator.go users are assumed to know ZooKeeper. A good place to start is [ZooKee
 
 ## Install Curator.go
 
-> $ go get github.com/flier/curator.go
+> $ go get github.com/ccpwcn/curator-go
 
 ## Using Curator
 
