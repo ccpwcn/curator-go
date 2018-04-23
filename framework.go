@@ -358,8 +358,8 @@ func (c *curatorFramework) validateConnection(state zk.State) {
 	case zk.StateExpired:
 		c.stateManager.AddStateChange(LOST)
 
-	// case zk.StateSyncConnected:
-	// 	c.stateManager.AddStateChange(RECONNECTED)
+	case zk.StateConnected:
+		c.stateManager.AddStateChange(RECONNECTED)
 
 	case zk.StateConnectedReadOnly:
 		c.stateManager.AddStateChange(READ_ONLY)
